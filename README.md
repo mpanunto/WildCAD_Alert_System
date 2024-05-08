@@ -1,6 +1,9 @@
 # WildCAD Alert System
 Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are the steps to follow to get things working.
 
+</br>
+</br>
+
 1. [Download this repository](https://github.com/mpanunto/WildCAD_Alert_System/archive/refs/heads/main.zip) and extract the files to a directory of choice
 
 </br>
@@ -29,14 +32,14 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are 
 </br>
 </br>
 
-3. Setup your "WildCAD_Alert_Emails.xlsx" spreadsheet.
+4. Setup your "WildCAD_Alert_Emails.xlsx" spreadsheet.
    - Rename the column names so they correspond to your dispatch centers of interest. Only change the standard 5 character dispatch abbreviations.
    
 
 </br>
 </br>
 
-4. Setup dummy Gmail account.
+5. Setup dummy Gmail account.
    - An "App Password" is needed for Python to access a Gmail account to automate email sending. An App Password is a password that is generated so that a third-party app can connect to a Gmail account. This password can then be used instead of the Google account password when using that app.
    - To create an app password for your dummy account: go here: https://myaccount.google.com/apppasswords
 
@@ -46,7 +49,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are 
 </br>
 </br>
 
-5. Modify Python script inputs at top of script
+6. Modify Python script inputs at top of script
    - Change file paths
    - Change list of dispatch centers, use the standard 5 character abbreviations
    - Specify dummy email address and password (the App Password generated in step 4)
@@ -56,7 +59,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are 
 </br>
 </br>
 
-6. Run scipt!
+7. Run scipt!
    - I have the script running on a dedicated machine using Windows Task Scheduler.
 
 
