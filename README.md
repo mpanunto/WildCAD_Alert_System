@@ -51,6 +51,12 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
    - Specify recipient of error alert emails
    - Specify output coordinate system
 
+</br>
+</br>
+
+6. Run scipt!
+   - I have the script running on a dedicated machine using Windows Task Scheduler.
+
 
 
 
