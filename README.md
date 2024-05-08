@@ -61,8 +61,8 @@ This system generates email alerts for new smoke checks and wildfires, pulled di
 </br>
 </br>
 
-7. Run scipt!
-   - I have the script running on a dedicated machine using Windows Task Scheduler.
+7. Run script
+   - I have the script running on a dedicated machine using Windows Task Scheduler, set to run every minute.
 
 
 
