@@ -3,12 +3,20 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 
 
 1) Customize your "WildCAD_Alert_Templates.aprx" layouts to your liking.
-   -For Utah, I created a layout for each dispatch center to have unique inset maps.
-   -For easiest setup, do not change the layout title text, or the "WildCAD Fire Location" layer name. These are hardcoded references for the script.
+   -For Utah, I created a layout for each dispatch center to have unique inset maps. For easiest setup, I would mirror this setup.
+   -Change the names of the layouts so they correspond to your dispatch centers of interest.
+   -Due to hardcoded references in the script, do not change:
+       -Layout title/subtitle text
+       -"WildCAD Fire Location" layer name
+       -"Layers Map Frame" map frame name
 3) Setup your WildCAD_Alert_Emails.xlsx so that they correspond to your dispatch centers of interest.
-4) Setup dummy gmail account.
+  -Change the column names to match your dispatch centers of interest
+5) Setup dummy gmail account.
 
-5) Update script
+6) Update script
+   -Change file paths at top of script
+   -Change list of dispatch centers at top of script, use the standard 5 character abbreviations
+   -Set output coordinate system at top of script 
 
 
 
