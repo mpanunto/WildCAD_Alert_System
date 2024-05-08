@@ -28,8 +28,8 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 </br>
 
 3. Setup your "WildCAD_Alert_Emails.xlsx" spreadsheet.
-   - Rename the column names so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
-   - DO NOT remove the "_SmokeCheck_SmallFire" and "_LargeFire" text in the column names.
+   - Rename the column names so they correspond to your dispatch centers of interest. Only change the standard 5 character dispatch abbreviations.
+   
 
 </br>
 </br>
