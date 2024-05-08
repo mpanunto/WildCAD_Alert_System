@@ -1,7 +1,6 @@
 # WildCAD Alert System
 Email alerts for new smoke checks and wildfires, pulled from WildCAD
 
-
 1. Customize your "WildCAD_Alert_Templates.aprx" layouts to your liking.
    - For Utah, I created a layout for each dispatch center to have unique inset maps. For easiest setup, I would recommend mirroring this setup.
    - Change the names of the layouts and maps so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
@@ -11,19 +10,19 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
       - "Layers Map Frame" map frame name
       - "Layers" map name       
    
-2) Setup your "FieldOfficeBoundaries" feature class
-   -Follow the same schema as the provided dataset
-   -DO NOT change the filename of the GDB or feature class
+2. Setup your "FieldOfficeBoundaries" feature class
+   - Follow the same schema as the provided dataset
+   - DO NOT change the filename of the GDB or feature class   
    
-   
-4) Setup your "WildCAD_Alert_Emails.xlsx"
-  -Rename the column names so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
-5) Setup dummy gmail account.
+3. Setup your "WildCAD_Alert_Emails.xlsx"
+   - Rename the column names so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
 
-6) Update script
-   -Change file paths at top of script
-   -Change list of dispatch centers at top of script, use the standard 5 character abbreviations
-   -Set output coordinate system at top of script 
+4. Setup dummy gmail account.
+
+5. Update Python script
+   - Change file paths at top of script
+   - Change list of dispatch centers at top of script, use the standard 5 character abbreviations
+   - Set output coordinate system at top of script 
 
 
 
