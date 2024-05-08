@@ -13,7 +13,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
    
 2) Setup your "FieldOfficeBoundaries" feature class
    -Follow the same schema as the provided dataset
-   -Don't change the filename of the GDB or feature class
+   -DO NOT change the filename of the GDB or feature class
    
    
 4) Setup your "WildCAD_Alert_Emails.xlsx"
