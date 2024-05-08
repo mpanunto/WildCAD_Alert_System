@@ -1,6 +1,9 @@
 # WildCAD Alert System
 Email alerts for new smoke checks and wildfires, pulled from WildCAD
 
+</br>
+</br>
+
 1. Customize your "WildCAD_Alert_Templates.aprx" layouts to your liking.
    - For Utah, I created a layout for each dispatch center to have unique inset maps. For easiest setup, I would recommend mirroring this setup.
    - Change the names of the layouts and maps so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
