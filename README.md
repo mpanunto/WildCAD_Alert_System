@@ -1,10 +1,12 @@
 # WildCAD Alert System
-Email alerts for new smoke checks and wildfires, pulled from WildCAD
+Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are the steps to follow to get things working.
+
+1. [Download this repository](https://github.com/mpanunto/WildCAD_Alert_System/archive/refs/heads/main.zip) and extract the files to a directory of choice
 
 </br>
 </br>
 
-1. Customize your "WildCAD_Alert_Templates.aprx" layouts to your liking.
+2. Customize your "WildCAD_Alert_Templates.aprx" layouts to your liking.
    - For Utah, I created a layout for each dispatch center in order to have unique inset maps. For ease of setup, I would recommend the same approach.
    - Change the names of the layouts and maps so they correspond to your dispatch centers of interest. Only change the standard 5 character dispatch abbreviations.
    - Due to hardcoded references in the script, DO NOT change the following elements of the templates:
@@ -16,7 +18,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 </br>
 </br>
 
-2. Setup the "FieldOfficeBoundaries" GDB feature class.   
+3. Setup the "FieldOfficeBoundaries" GDB feature class.   
    - Ensure it has full data coverage of your dispatch centers of interest.
    - Follow the same schema as the provided dataset
       - ADMU_NAME (field office)
