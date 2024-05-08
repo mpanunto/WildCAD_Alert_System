@@ -39,7 +39,7 @@ This system generated email alerts for new smoke checks and wildfires, pulled di
 </br>
 </br>
 
-5. Setup dummy Gmail account.
+5. Setup dummy email account. I use a Gmail account.
    - An "App Password" is needed for Python to access a Gmail account to automate email sending. An App Password is a password that is generated so that a third-party app can connect to a Gmail account. This password can then be used instead of the Google account password when using that app.
    - To create an app password for your dummy account: go here: https://myaccount.google.com/apppasswords
 
