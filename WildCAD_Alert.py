@@ -10,7 +10,6 @@ import email.mime.text
 #Read-in the csv log file
 wildcad_log_path = r"C:\Workspace\OneDrive\Code\WildCAD_Alert/WildCAD_Alert_Log.csv"
 wildcad_log_df = pandas.read_csv(wildcad_log_path, encoding="ISO-8859-1")
-#wildcad_log_df = pandas.read_csv(wildcad_log_path, encoding="Windows-1252")
 
 #Read-in the email list
 wildcad_emails_path = r"C:\Workspace\OneDrive\Code\WildCAD_Alert/WildCAD_Alert_Emails.xlsx"
@@ -28,6 +27,15 @@ fo_bndry_fc_path = r"C:\Workspace\Layers\Boundaries\FieldOfficeBoundaries.gdb/Fi
 
 #Specify dispatch centers to process, using 5 character abbreviations
 dispatch_list = ["UTCDC", "UTMFC", "UTNUC", "UTRFC", "UTUBC", "AZFDC", "IDEIC", "NVECC"]
+
+#Specify dummy email address, and password
+#This is the email that will be sending out the wildfire alert emails
+email_sender = 'yourdummyemail@gmail.com'
+email_password = 'xxxxxxxxxxxxxx'
+
+#Specify recipient of error alert emails
+#If the script encounters and error, it will send an email alert to this recipient.
+receiverEmail_errors = "yourworkorpersonalemail@email.com"
 
 #Specify output coordinate system WKID
 out_crs = 26912
@@ -538,7 +546,6 @@ try:
 
             #Create layer object
             firepoint_layer = layers_map.listLayers("WildCAD Fire Location")[0]
-            sma_layer = layers_map.listLayers("LandStatus")[0]
 
             #Get the original datasource for layer object
             firepoint_layer_cp = firepoint_layer.connectionProperties
@@ -631,8 +638,6 @@ try:
 
             #Prepare email for sending
             print("....Sending email")
-            email_sender = 'dummyaccount@gmail.com' #Email sender
-            email_password = 'xxxxxxxxxxxx' #Email password
 
             #build email subject string
             if(curr_fire_type == "Wildfire"):
@@ -709,16 +714,11 @@ except Exception as e:
     error_msg = str(e)
     if("HTTP Error 503: Service Unavailable" not in error_msg):
 
-        #Prepare email for sending
-        email_sender = 'dummyaccount@gmail.com' #Email sender
-        email_password = 'xxxxxxxxxxxx' #Email password
-        receiverEmail = "alertmanager@gmail.com"   # Email receiver(s)
-
-        #Now build email
+        #Build email
         msg = email.mime.multipart.MIMEMultipart()
         msg['Subject'] = "WildCAD ALERT ERROR"
         msg['From'] = email_sender
-        msg['To'] = "alertmanager@gmail.com"#", ".join(receiverEmail)
+        msg['To'] = receiverEmail_errors
 
         msg.attach(email.mime.text.MIMEText(error_msg, 'html'))
 
