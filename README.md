@@ -5,3 +5,7 @@ In order for my Python environment to have access to my dummy gmail account (log
 
 To create an app password for your dummy account: go here: https://myaccount.google.com/apppasswords
 
+![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
+
+
+
