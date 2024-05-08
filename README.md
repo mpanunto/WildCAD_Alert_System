@@ -21,12 +21,13 @@ This system generated email alerts for new smoke checks and wildfires, pulled di
 </br>
 </br>
 
-3. Setup the "FieldOfficeBoundaries" GDB feature class.   
-   - Ensure it has full data coverage of your dispatch centers of interest.
+3. Setup the "FieldOfficeBoundaries" GDB feature class.
+   - Unzip "FieldOfficeBoundaries.gdb.zip"   
    - Follow the same schema as the provided dataset
       - ADMU_NAME (field office)
       - PARENT_NAME (district)
       - ADMIN_ST (state)
+   - Ensure feature class has full data coverage of your dispatch centers of interest.
    
 
 </br>
