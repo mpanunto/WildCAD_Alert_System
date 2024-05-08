@@ -45,7 +45,7 @@ This system generates email alerts for new smoke checks and wildfires, pulled di
    - An "App Password" is needed for Python to access a Gmail account to automate email sending. An App Password is a password that is generated so that a third-party app can connect to a Gmail account. This password can then be used instead of the Google account password when using that app.
    - To create an App Password for a Gmail account, go here: https://myaccount.google.com/apppasswords
 
-![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
+![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/docs/screenshot_GmailSetup_1.png)
 
 
 </br>
