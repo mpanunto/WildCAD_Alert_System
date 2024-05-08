@@ -35,10 +35,14 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 </br>
 
 4. Setup dummy gmail account.
-   - In order for my Python environment to have access to my dummy gmail account (logging into the account and sending emails), I had to create an App Password. An app password is a password that is generated so that a third-party app can connect to your Gmail account. You then use it instead of your Google account password when using that app.
+   - An "App Password" is needed for Python to access a Gmail account to automate email sending. An App Password is a password that is generated so that a third-party app can connect to a Gmail account. This password can then be used instead of the Google account password when using that app.
    - To create an app password for your dummy account: go here: https://myaccount.google.com/apppasswords
 
 ![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
+![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
+
+
+
 
 </br>
 </br>
@@ -46,7 +50,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 5. Modify Python script inputs at top of script
    - Change file paths
    - Change list of dispatch centers, use the standard 5 character abbreviations
-   - Specify dummy email address and password
+   - Specify dummy email address and password (the App Password generated in step 4)
    - Specify recipient of error alert emails
    - Specify output coordinate system
 
