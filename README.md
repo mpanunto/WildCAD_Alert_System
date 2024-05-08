@@ -9,15 +9,27 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
       - "WildCAD Fire Location" layer name
       - "Layers Map Frame" map frame name
       - "Layers" map name       
-   
+
+</br>
+</br>
+
 2. Setup your "FieldOfficeBoundaries" feature class
    - Follow the same schema as the provided dataset
    - DO NOT change the filename of the GDB or feature class   
-   
+
+</br>
+</br>
+
 3. Setup your "WildCAD_Alert_Emails.xlsx"
    - Rename the column names so they correspond to your dispatch centers of interest. Use the standard 5 character dispatch abbreviations.
 
+</br>
+</br>
+
 4. Setup dummy gmail account.
+
+</br>
+</br>
 
 5. Update Python script
    - Change file paths at top of script
