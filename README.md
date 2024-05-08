@@ -4,7 +4,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD. Below are 
 </br>
 </br>
 
-1. [Download this repository](https://github.com/mpanunto/WildCAD_Alert_System/archive/refs/heads/main.zip) and extract the files to a directory of choice
+1. [Download this repository](https://github.com/mpanunto/WildCAD_Alert_System/archive/refs/heads/main.zip) and extract the files.
 
 </br>
 </br>
