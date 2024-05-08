@@ -16,7 +16,7 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
 </br>
 </br>
 
-2. Setup the "FieldOfficeBoundaries" feature class.   
+2. Setup the "FieldOfficeBoundaries" GDB feature class.   
    - Ensure it has full data coverage of your dispatch centers of interest.
    - Follow the same schema as the provided dataset
       - ADMU_NAME (field office)
@@ -39,9 +39,6 @@ Email alerts for new smoke checks and wildfires, pulled from WildCAD
    - To create an app password for your dummy account: go here: https://myaccount.google.com/apppasswords
 
 ![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
-![screenshot_GmailSetup_1.png](https://raw.githubusercontent.com/mpanunto/WildCAD_Alert_System/main/Docs/screenshot_GmailSetup_1.png)
-
-
 
 
 </br>
