@@ -1,5 +1,5 @@
 # WildCAD Alert System
-This system generates email alerts for new smoke checks and wildfires, pulled directly from WildCAD. Below are the steps to follow for getting things working.
+This system generates email alerts for new smoke checks and wildfires, pulled directly from WildCAD. [Here is a briefing video for this product](https://www.youtube.com/watch?v=IzJMHeuVztE). Below are the steps to follow for getting things working.
 
 </br>
 </br>
