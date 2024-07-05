@@ -728,7 +728,7 @@ except Exception as e:
         session.login(email_sender, email_password)
 
         #Sends email
-        session.sendmail(email_sender, receiverEmail, msg.as_string())
+        session.sendmail(email_sender, receiverEmail_errors, msg.as_string())
         session.quit()
 
 
